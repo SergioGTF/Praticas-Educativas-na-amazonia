@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ações Escolares</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilização do site */
+        .navbar {
+            background-color: #0d6efd;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
+
+        .bg-primary {
+            background-color: #0d6efd !important;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer-link {
+            color: #ffc107;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #343a40;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Práticas Educativas na Amazônia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Vídeos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Descrição dos projetos -->
+    <section class="bg-primary text-white text-center p-5">
+        <div class="container">
+            <h1 class="display-4">Ações Escolares</h1>
+            <p class="lead">Descubra nossos projetos inovadores e inspire-se com as iniciativas de nossos alunos.</p>
+        </div>
+    </section>
+
+    <!-- Professores seção -->
+    <section class="p-5 bg-light text-center">
+        <div class="container">
+            <h2 class="text-center mb-5">Conheça nossos Professores</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="./Assets/ImagemprofessorEdson.jpg" class="img-fluid rounded-circle mb-3" alt="Professor 1">
+                    <h5>Professor Edson de Leão Farias</h5>
+                    <p>Professor de Biologia.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="professor2.jpg" class="img-fluid rounded-circle mb-3" alt="Professor 2">
+                    <h5>Professor 2</h5>
+                    <p>Descrição breve sobre o Professor 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="professor3.jpg" class="img-fluid rounded-circle mb-3" alt="Professor 3">
+                    <h5>Professor 3</h5>
+                    <p>Descrição breve sobre o Professor 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos seção -->
+    <section id="projetos" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projetos Recentes</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card h-100 flex-fill">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio Tocantins</h5>
+                            <p class="card-text">Rio Tocantins próximo à cidade de Cametá - Pará.</p>
+                            <a href="https://www.youtube.com/watch?v=aVJFkqGeBNk" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card h-100 flex-fill">
+                        <div class="card-body">
+                            <h5 class="card-title">Lixo no rio</h5>
+                            <p class="card-text">Lixo no rio, o peixe sumiu: o olhar dos alunos do SOME sobre os problemas ambientais.</p>
+                            <a href="https://www.youtube.com/watch?v=4XiIVDTSc4Y" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card h-100 flex-fill">
+                        <div class="card-body">
+                            <h5 class="card-title">II SUPER COPINHA SOME</h5>
+                            <p class="card-text">Realizado na comunidade de Ilha Paulista pelos professores Alex Carvalho, Benedito Silva e Edson Farias, do sistema modular de ensino SOME.</p>
+                            <a href="https://www.youtube.com/watch?v=ncegb1EbGGQ" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card h-100 flex-fill">
+                        <div class="card-body">
+                            <h5 class="card-title">O Transporte Escolar no SOME</h5>
+                            <p class="card-text">Documentário sobre o transporte escolar dos alunos do SOME, mostrando os desafios enfrentados.</p>
+                            <a href="https://www.youtube.com/watch?v=x1Rmz07xPEw" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vídeos seção -->
+    <section id="videos" class="bg-light p-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Vídeos no YouTube</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/aVJFkqGeBNk" title="Rio Tocantins" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/4XiIVDTSc4Y?t=2s" title="Lixo no Rio" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/ncegb1EbGGQ?t=1s" title="II Super Copa Some" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/x1Rmz07xPEw?t=1s" title="O Transporte Escolar no SOME" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria seção, falta adicionar todas as imagens -->
+   <!-- Galeria seção -->
+<section id="galeria" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Galeria de Imagens</h2>
+        <div class="row">
+            <!-- Card para a primeira ação -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ação 1: Falta adicionar o nome</h5>
+                        <p class="card-text">Descrição breve sobre a ação e sua importância.</p>
+                    </div>
+                    <img src="imagem_galeria1.jpg" class="card-img-bottom img-fluid" alt="Imagem da Ação 1">
+                </div>
+            </div>
+
+            <!-- Card para a segunda ação -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ação 2: Falta adicionar o nome</h5>
+                        <p class="card-text">Descrição breve sobre a ação e sua importância.</p>
+                    </div>
+                    <img src="imagem_galeria2.jpg" class="card-img-bottom img-fluid" alt="Imagem da Ação 2">
+                </div>
+            </div>
+
+            <!-- Card para a terceira ação -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ação 3: Falta adicionar o nome</h5>
+                        <p class="card-text">Descrição breve sobre a ação e sua importância.</p>
+                    </div>
+                    <img src="imagem_galeria3.jpg" class="card-img-bottom img-fluid" alt="Imagem da Ação 3">
+                </div>
+            </div>
+
+            <!-- Adicione mais cards conforme necessário -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Ações Escolares | <a href="https://www.youtube.com/@portalcaboclo" class="footer-link" target="_blank">Canal do YouTube</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
